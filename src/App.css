@@ -7,10 +7,24 @@
   height: 40vmin;
   pointer-events: none;
 }
+.content{
+  min-height: 90vh !important;
+  background-color: grey;
+}
+.header,.menu,.footer{
+  background-color: #F2AE72 !important;
+}
+.main-cotent{
+  min-height:80vh;
+  width: 90vw;
+  margin: 5vh 5vw;
+  background-color: bisque;
+  border-radius: 10px;
+}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,10 +32,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.home-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
+.omg{
+  text-align: center;
+  font-size: 20px;
+}
+
 
 @keyframes App-logo-spin {
   from {
@@ -31,3 +52,4 @@
     transform: rotate(360deg);
   }
 }
+
